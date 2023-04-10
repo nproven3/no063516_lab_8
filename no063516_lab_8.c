@@ -7,6 +7,8 @@ int extraMemoryAllocated;
 void heapify(int arr[], int n, int i);
 void heapSort(int arr[], int n);
 void mergeSort(int pData[], int l, int r);
+int parseData(char *inputFileName, int **ppData);
+void printArray(int pData[], int dataSz);
 
 // implements heap sort
 // extraMemoryAllocated counts bytes of memory allocated
